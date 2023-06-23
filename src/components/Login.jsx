@@ -2,7 +2,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { FaUser } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLock } from "react-icons/fa";
-import { auth } from "../lib/firebase";
+import { auth } from "../.env/firebase";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
